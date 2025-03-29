@@ -19,6 +19,6 @@
 ## 各種リンク
 自作Webサーバは今後アップ予定です。もしかするとサーバが止まってしまう可能性があるので、見られないようでしたら他のリンクからお願いします。
 
-- レンタルサーバ使用：[https://syuitsudustbox.com/private_portfolio/]
-- ホスティングサービス（Vercel）使用：[ttps://private-portfolio-eight.vercel.app/]
+- レンタルサーバ使用：https://syuitsudustbox.com/private_portfolio/
+- ホスティングサービス（Vercel）使用：https://private-portfolio-eight.vercel.app/
 - 自作Webサーバ使用：Coming Soon...
