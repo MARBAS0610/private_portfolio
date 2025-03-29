@@ -15,3 +15,10 @@
 
 ## 注意点
 - レンタルサーバに公開する方はドメインのサブディレクトリ（syuitsudustbox.com/private_portfolio）を使用するため、package.jsonに"homepage": "/private_portfolio/"を記載。Vercelの場合これは必要ないためGitHubにアップする際消した。
+
+## 各種リンク
+自作Webサーバは今後アップ予定です。もしかするとサーバが止まってしまう可能性があるので、見られないようでしたら他のリンクからお願いします。
+
+- レンタルサーバ使用：[https://syuitsudustbox.com/private_portfolio/]
+- ホスティングサービス（Vercel）使用：[ttps://private-portfolio-eight.vercel.app/]
+- 自作Webサーバ使用：Coming Soon...
