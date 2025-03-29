@@ -1,0 +1,9 @@
+.main_image {
+    flex-basis: 65%;
+    width: 65%; /* 幅を30%に指定 */
+    /* max-width: 300px; 画像の最大幅 */
+    height: auto;
+    border-radius: 8px;
+    margin-Top: 20px;
+    margin-Bottom: 40px;
+  }

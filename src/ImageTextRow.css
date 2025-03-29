@@ -1,0 +1,38 @@
+.image-text-row {
+  display: flex;
+  align-items: center;
+  gap: 60px;
+  padding: 60px;
+}
+
+.image-text-row__image {
+  flex-basis: 30%;
+  width: 30%; /* 幅を30%に指定 */
+  /* max-width: 300px; 画像の最大幅 */
+  height: auto;
+  border-radius: 8px;
+}
+
+.image-text-row__text {
+  flex-basis: 70%;
+  width: 70%; /* 幅を70%に指定 */
+  /* max-width: 700px; テキスト部分の最大幅 */
+}
+
+/* 画面幅が768px以下になった場合のスタイル */
+@media (max-width: 768px) {
+  .image-text-row {
+    flex-direction: column; /* 縦並びにする */
+    text-align: center;     /* テキストを中央揃えにする */
+  }
+
+  .image-text-row__image,
+  .image-text-row__text {
+    width: 100%; /* 幅を100%に変更 */
+    flex-basis: 100%;
+  }
+
+  .image-text-row__image {
+    max-width: 100%; /* 画像の最大幅を解除 */
+  }
+}
